@@ -38,9 +38,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/toggle_background"
+                    android:textColor="@android:color/white"
                     android:textOff="@string/language_en"
-                    android:textOn="@string/language_am"
-                    android:textColor="@android:color/white" />
+                    android:textOn="@string/language_am" />
             </LinearLayout>
 
             <!-- Photo Selection -->
@@ -50,20 +50,6 @@
                 android:orientation="horizontal"
                 android:paddingTop="16dp">
 
-                <ImageView
-                    android:id="@+id/photoImageView"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/default_profile" />
-
-                <Button
-                    android:id="@+id/selectPhotoButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:text="@string/select_photo" />
-
             </LinearLayout>
 
             <!-- Form Fields -->
@@ -71,6 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/firstNameEditText"
                     android:layout_width="match_parent"
@@ -129,10 +116,12 @@
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/commentEditText"
                     android:layout_width="match_parent"
@@ -140,8 +129,21 @@
                     android:hint="@string/comment"
                     android:inputType="textMultiLine"
                     android:minLines="3" />
-            </com.google.android.material.textfield.TextInputLayout>
 
+                <ImageView
+                    android:id="@+id/photoImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_profile" />
+
+                <Button
+                    android:id="@+id/selectPhotoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/select_photo" />
+            </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
                 android:id="@+id/errorTextView"
