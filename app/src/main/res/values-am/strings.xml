@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">የመመሪያ ፎርም</string>
+    <string name="language_toggle">ቋንቋ</string>
+    <string name="language_en">እን</string>
+    <string name="language_am">አማ</string>
+    
+    <!-- Registration Activity -->
+    <string name="first_name">ስም</string>
+    <string name="last_name">የአባት ስም</string>
+    <string name="date_of_birth">የልደት ቀን</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="confirm_password">የይለፍ ቃል (ለመረጋግጫ)</string>
+    <string name="select_photo">ፎቶ</string>
+    <string name="comment">አስተያየት</string>
+    <string name="submit">አስገባ</string>
+    <string name="first_name_required">መጠሪያ ስም ያስፈልጋል</string>
+    <string name="last_name_required">የአባት ስም ያስፈልጋል</string>
+    <string name="date_required">የልደት ቀን ያስፈልጋል</string>
+    <string name="password_required">የይለፍ ቃል ያስፈልጋል</string>
+    <string name="confirm_password_required">የይለፍ ቃል (ለመረጋግጫ) ያስፈልጋል</string>
+    <string name="photo_required">ፎቶ ያስፈልጋል</string>
+    <string name="passwords_do_not_match">የይለፍ ቃሎች አይዛመዱም</string>
+
+</resources>
